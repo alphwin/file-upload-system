@@ -1,0 +1,38 @@
+/* style.css */
+
+/* Adjust the margin to make space for the fixed header (height: 80px) */
+.fixed-header-margin {
+    margin-top: 80px;
+}
+
+/* Adjust the margin to make space for the fixed footer (height: 60px) */
+.fixed-footer-margin {
+    margin-bottom: 60px;
+}
+
+/* Style the header */
+header {
+    background-color: #007bff;
+    color: white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Style the footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+}
+
+/* General body margin adjustments */
+body {
+    background-color: #f8f9fa;
+}
